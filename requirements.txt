@@ -1,0 +1,11 @@
+scikit-learn
+
+tweepy
+textblob
+
+numpy
+scipy
+lighfm
+
+csv
+matplotlib
