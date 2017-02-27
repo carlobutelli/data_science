@@ -1,11 +1,11 @@
 import tweepy
 from textblob import TextBlob
 
-consumer_key = 'k7elowb0s28tejQJMhl5yfHbU'
-consumer_secret = 'WeQCy7IPozT3pasnywr5cTolm3XhxLMIx6aU2VFm7UFjiAhTVb'
+consumer_key = 'CONSUMER_KEY_HERE'
+consumer_secret = 'CONSUMER_SECRET_HERE'
 
-access_token = '2890651606-DGjqFWYk8I56HIxWtQOf6kTaKq0HGOupeS0xNeF'
-access_token_secret = 'RUmD83ANCrLz3dE3eYbVum9nFXAmozy1Mxw4iym3OuxWE'
+access_token = 'ACCESS_TOKEN_HERE'
+access_token_secret = 'ACCESS_TOKEN_SECRET_HERE'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
